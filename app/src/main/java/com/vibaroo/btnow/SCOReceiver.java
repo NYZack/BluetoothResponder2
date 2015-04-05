@@ -8,6 +8,9 @@ import android.util.Log;
 
 public class SCOReceiver extends BroadcastReceiver {
     AudioManager mAudioManager;
+
+    public SCOReceiver() {}
+
     public SCOReceiver(AudioManager audioManager) {
         mAudioManager = audioManager;
     }
