@@ -38,5 +38,6 @@ public class RegisterActivity extends Activity {
                 startService(new Intent(this, HUD.class));
                 break;
         }
+        finish();
     }
 }
